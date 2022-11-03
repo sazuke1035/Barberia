@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0%;
+
+}
+body {
+    background: url(/img/extra.jpeg) center fixed repeat;
+}
+
+/* Nav*/
+
+
+.menu{
+    background-color: black;
+   
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 1%;
+    gap: 70px;
+}
+
+.menu li a {
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(88, 94, 94);
+    font-family:monospace
+    
+}
+
+.push {
+ margin-left: auto;
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .menu ul{
+        font-size: 1.2rem;
+        padding: 0;
+    }
+    
+}
+ /* Precios */
+
+
+ .precios {
+ width: 32%;
+ max-width: 960px;
+ margin: 0 auto;
+ margin-top: 2%;
+ align-items: center;
+ justify-items: center;
+ 
+ }
+ #preciosc {
+    width: 82%;
+    height: auto;
+    margin-left: 8%;
+    border-radius: 2%;
+    
+
+   
+    box-shadow: 8px 8px 3px 8px #000000 ;
+}
+
+
+
+#preciosc:hover {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+#preciosc {overflow:hidden;}
+
+
+
+/*Locales*/

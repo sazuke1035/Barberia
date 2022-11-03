@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0%;
+
+}
+body {
+    background: rgb(16, 16, 16);
+}
+
+/* Nav*/
+
+
+.menu{
+    background-color: black;
+   
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 1%;
+    gap: 70px;
+}
+
+.menu li a {
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(88, 94, 94);
+    font-family:monospace
+    
+}
+
+.push {
+ margin-left: auto;
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .menu ul{
+        font-size: 1.2rem;
+        padding: 0;
+    }
+    
+}
+
+/* contenedor*/
+
+.contenedor {
+    width: 140vh;
+    height: 80vh;
+    border: 6px solid white;
+    margin-left: 14% ;
+    margin-top: 2%;
+    background-color: rgb(234, 214, 214);
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+}
+
+.imagen {
+    height:80vh ;
+    width: 43vh;
+   
+}
+.imagen img {
+
+    max-width: 53.3vh;
+    max-height:190vh;
+}
+.locales {
+    justify-content: center;
+    text-align: center;
+    margin-top: -70vh;
+    margin-left: 50vh;
+    font-size: 22px;
+
+}
+h1 {
+    margin-left: 40px;
+}
+
+.locales ul {
+
+    margin-top: 5vh;
+    list-style: none;
+}
+.locales ul img{
+    width: 20px;
+    height: 20px; 
+    padding: 0;
+    margin: 0;
+
+}
+#telefono {
+
+    margin-left: -28vh;
+}
+.telefono2 {
+
+    margin-top: -4vh;
+    margin-right: -7vh;
+}
+#carta {
+
+    margin-left: -28vh;
+    margin-top: 5vh;
+
+}
+.carta2 {
+
+    margin-top: -4vh;
+    margin-left: 7vh;
+}
+.svg-inline--fa{
+    max-width: 25px;
+    max-height: 25px;
+    margin-top: 5vh;
+}
+.social-icon1 {
+   padding: 2vh;
+   margin-left: -0vh;
+}
+
+
+
+@media  (max-width:600px) {
+    .locales ul{
+        font-size: 1.2rem;
+        padding: 0;
+    }
+    #titulo {
+        font-size: 1.4rem;
+        padding: 0;
+    }
+}
